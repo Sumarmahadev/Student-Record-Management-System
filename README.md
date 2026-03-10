@@ -78,6 +78,8 @@ src
 ├── pages
 │   ├── Home.jsx
 │   ├── Login.jsx
+|   |-- Logout.jsx
+|   |-- Regitser.jsx
 │   ├── Dashboard.jsx
 │   ├── AddStudent.jsx
 │   └── StudentsList.jsx
