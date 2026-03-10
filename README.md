@@ -1,16 +1,146 @@
-# React + Vite
+# Student Record Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
 
-Currently, two official plugins are available:
+This project is a **Student Record Management System** built using **React.js**.
+It allows users to **add, edit, delete, and view student records** in a table format.
+All CRUD operations are handled on the **frontend using React state**, without a backend.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project was developed as part of a **Full Stack Assignment – Students Table**.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+### Student Table
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Displays student records in a table
+* Columns include:
+
+  * Name
+  * Email
+  * Age
+  * Actions (Edit / Delete)
+
+### Add Student
+
+* Add new student records
+* Form validation includes:
+
+  * All fields are mandatory
+  * Email must be in valid format
+  * Age must be greater than 0
+
+### Edit Student
+
+* Edit existing student details
+* Form is pre-filled with student data
+* Same validation rules apply
+
+### Delete Student
+
+* Students can be deleted
+* Includes confirmation dialog before deletion
+
+### Excel Export
+
+* Download the student list as an Excel file
+* Implemented using **xlsx** and **file-saver**
+
+### Simulated Loading
+
+* Displays a loading state before rendering the student table
+
+---
+
+## Technologies Used
+
+* React.js
+* React Router
+* Tailwind CSS
+* JavaScript (ES6)
+* XLSX (Excel export)
+* File-Saver
+
+---
+
+## Project Structure
+
+```
+src
+│
+├── assets
+│
+├── components
+│   ├── StudentForm.jsx
+│   └── StudentTable.jsx
+│
+├── pages
+│   ├── Home.jsx
+│   ├── Login.jsx
+│   ├── Dashboard.jsx
+│   ├── AddStudent.jsx
+│   └── StudentsList.jsx
+│
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## Installation and Setup
+
+1. Clone the repository
+
+```
+git clone https://github.com/yourusername/student-record-management.git
+```
+
+2. Navigate to project folder
+
+```
+cd student-record-management
+```
+
+3. Install dependencies
+
+```
+npm install
+```
+
+4. Start the development server
+
+```
+npm run dev
+```
+
+---
+
+## Live Project
+
+Frontend Hosted Link:
+
+```
+https://your-project-link.vercel.app
+```
+
+---
+
+## GitHub Repository
+
+```
+https://github.com/yourusername/student-record-management
+```
+
+---
+
+## Optional Backend (Bonus)
+
+Backend implementation using **NestJS and PostgreSQL** can be added to handle CRUD operations via APIs.
+This part is optional and not required for the assignment.
+
+---
+
+## Author
+
+Developed by **[Your Name]**
