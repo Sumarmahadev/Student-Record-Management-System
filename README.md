@@ -26,10 +26,9 @@ This project was developed as part of a **Full Stack Assignment – Students Tab
 
 * Add new student records
 * Form validation includes:
-
-  * All fields are mandatory
-  * Email must be in valid format
-  * Age must be greater than 0
+* All fields are mandatory
+* Email must be in valid format
+* Age must be greater than 0
 
 ### Edit Student
 
@@ -101,7 +100,7 @@ git clone https://github.com/yourusername/student-record-management.git
 2. Navigate to project folder
 
 ```
-cd student-record-management
+cd student table 
 ```
 
 3. Install dependencies
@@ -123,7 +122,7 @@ npm run dev
 Frontend Hosted Link:
 
 ```
-https://your-project-link.vercel.app
+https://recordrapid.netlify.app/
 ```
 
 ---
@@ -131,7 +130,7 @@ https://your-project-link.vercel.app
 ## GitHub Repository
 
 ```
-https://github.com/yourusername/student-record-management
+https://github.com/Sumarmahadev/Student-Record-Management-System
 ```
 
 ---
@@ -145,4 +144,4 @@ This part is optional and not required for the assignment.
 
 ## Author
 
-Developed by **[Your Name]**
+Developed by **[SUMAR CHIMACODE]**
